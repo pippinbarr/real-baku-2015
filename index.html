@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Baku Games</title>
+
+	<!-- <link rel="stylesheet" media="screen" href="screen.css"> -->
+
+
+	<script src="libraries/phaser.min.js"></script>
+	<script src="src/Boot.js"></script>
+	<script src="src/Preloader.js"></script>
+	<script src="src/Title.js"></script>
+	<script src="src/Message.js"></script>
+	<script src="src/Select.js"></script>
+	<script src="src/EventMenu.js"></script>
+	<script src="src/Minigame.js"></script>
+	<script src="src/Sprint.js"></script>
+	<script src="src/HighJump.js"></script>
+	<script src="src/Boxing.js"></script>
+	<script src="src/Swimming.js"></script>
+	<script src="src/ShotPut.js"></script>
+	<script src="src/GameOver.js"></script>
+	<script src="src/EndScreen.js"></script>
+</head>
+
+<style>
+body {
+	margin: 0;
+}
+</style>
+
+<body>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-4154820-2', 'auto');
+ga('send', 'pageview');
+</script>
+
+<script type="text/javascript">
+
+window.onload = function() {
+
+	// Injects the game into the bakugames div and always resizes the game to match the size
+	// of the div while maintaining its aspect ratio.
+	//
+	// The game itself is 480x480 in terms of its graphics etc.
+
+	var game = new Phaser.Game(480, 480, Phaser.AUTO, 'bakugames');
+
+	// These are just loading the various parts of the game up
+	game.state.add('Boot', BasicGame.Boot);
+	game.state.add('Preloader', BasicGame.Preloader);
+	game.state.add('Title', BasicGame.Title);
+	game.state.add('Message', BasicGame.Message);
+	game.state.add('Select', BasicGame.Select);
+	game.state.add('EventMenu', BasicGame.EventMenu);
+	game.state.add('Minigame', BasicGame.Minigame);
+	game.state.add('Sprint', BasicGame.Minigame.Sprint);
+	game.state.add('HighJump', BasicGame.Minigame.HighJump);
+	game.state.add('Boxing', BasicGame.Minigame.Boxing);
+	game.state.add('Swimming', BasicGame.Minigame.Swimming);
+	game.state.add('ShotPut', BasicGame.Minigame.ShotPut);
+	game.state.add('GameOver', BasicGame.GameOver);
+	game.state.add('EndScreen', BasicGame.EndScreen);
+
+	//	Now we start the game with the "boot" state.
+	game.state.start('Boot');
+
+};
+
+</script>
+
+<!-- Here is the DIV that will contain the game. It can be styled, notably with dimensions
+that the game will then match in its own size, giving us flexibility on platforms like mobile
+and for styling the overall page, placing the game within it, etc. -->
+
+<div id="bakugames" data-language="en"></div>
+
+</div>
+
+</body>
+</html>

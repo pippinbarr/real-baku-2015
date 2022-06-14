@@ -1,0 +1,149 @@
+{
+	"ui":
+	{
+		"clickPlay": "CLICK TO PLAY",
+		"clickPlaySizeAdjustment": 0,
+		"touchPlay": "TOUCH TO PLAY",
+		"touchPlaySizeAdjustment": 0,
+		"clickContinue": "CLICK TO CONTINUE",
+		"clickContinueSizeAdjustment": 0,
+		"touchContinue": "TOUCH TO CONTINUE",
+		"touchContinueSizeAdjustment": 0,
+		"ready": "READY!",
+		"readySizeAdjustment": 0,
+		"set": "SET!",
+		"setSizeAdjustment": 0,
+		"go": "GO!",
+		"goSizeAdjustment": 0,
+		"record": "NEW RECORD",
+		"recordSizeAdjustment": 0
+	},
+	"title":
+	{
+		"title": "REAL BAKU 2015",
+		"titleSizeAdjustment": 0
+	},
+	"message":
+	{
+		"message": ["THE 1ST EVER EUROPEAN","GAMES ARE BEING HELD IN","AZERBAIJAN, A COUNTRY","WHERE MANY ACTIVISTS,","JOURNALISTS AND LAWYERS","ARE ARBITRARILY DETAINED."],
+		"messageSizeAdjustment": 0
+	},
+	"select":
+	{
+		"choose": "CHOOSE YOUR \"ATHLETE\"",
+		"chooseSizeAdjustment": 0,
+		"activist": "ACTIVIST",
+		"activistSizeAdjustment": 0,
+		"journalist": "JOURNALIST",
+		"journalistSizeAdjustment": 0,
+		"lawyer": "LAWYER",
+		"lawyerSizeAdjustment": 0
+	},
+	"eventmenu":
+	{
+		"message": "CHOOSE YOUR SPORT",
+		"messageSizeAdjustment": 0,
+		"sprint": "SPRINT",
+		"sprintSizeAdjustment": 0,
+		"highjump": "HIGH JUMP",
+		"highjumpSizeAdjustment": 0,
+		"boxing": "BOXING",
+		"boxingSizeAdjustment": 0,
+		"shotput": "SHOT PUT",
+		"shotputSizeAdjustment": 0,
+		"swimming": "SWIMMING",
+		"swimmingSizeAdjustment": 0
+	},
+	"sprint":
+	{
+		"eventName": "SPRINT",
+		"eventNameSizeAdjustment": 0,
+		"clickInstructions": ["CLICK RAPIDLY","TO SPRINT"],
+		"clickInstructionsSizeAdjustment": 0,
+		"touchInstructions": ["TAP RAPIDLY","TO SPRINT"],
+		"touchInstructionsSizeAdjustment": 0,
+		"results": ["DISTANCE"],
+		"resultsSizeAdjustment": 0
+	},
+	"highjump":
+	{
+		"eventName": "HIGH JUMP",
+		"eventNameSizeAdjustment": 0,
+		"clickInstructions": ["CLICK AND HOLD","TO CROUCH","RELEASE TO JUMP"],
+		"clickInstructionsSizeAdjustment": 0,
+		"touchInstructions": ["TOUCH AND HOLD","TO CROUCH","RELEASE TO JUMP"],
+		"touchInstructionsSizeAdjustment": 0,
+		"results": ["BEST HEIGHT"],
+		"resultsSizeAdjustment": 0
+		},
+	"boxing":
+	{
+		"eventName": "BOXING",
+		"eventNameSizeAdjustment": 0,
+		"clickInstructions": ["CLICK TO","THROW PUNCHES"],
+		"clickInstructionsSizeAdjustment": 0,
+		"touchInstructions": ["TAP TO","THROW PUNCHES"],
+		"touchInstructionsSizeAdjustment": 0,
+		"thrown": "THROWN",
+		"thrownSizeAdjustment": 0,
+		"landed": "LANDED",
+		"landedSizeAdjustment": 0,
+		"results": ["PUNCHES THROWN","PUNCHES LANDED"],
+		"resultsSizeAdjustment": 0
+	},
+	"swimming":
+	{
+		"eventName": "SWIMMING",
+		"eventNameSizeAdjustment": 0,
+		"clickInstructions": ["CLICK RAPIDLY","TO \"SWIM\""],
+		"clickInstructionsSizeAdjustment": 0,
+		"touchInstructions": ["TAP RAPIDLY","TO \"SWIM\""],
+		"touchInstructionsSizeAdjustment": 0,
+		"results": ["DISTANCE"],
+		"resultsSizeAdjustment": 0
+	},
+	"shotput":
+	{
+		"eventName": "SHOT PUT",
+		"eventNameSizeAdjustment": 0,
+		"clickInstructions": ["CLICK AND HOLD","TO BUILD POWER","RELEASE TO THROW"],
+		"clickInstructionsSizeAdjustment": 0,
+		"touchInstructions": ["TOUCH AND HOLD","TO BUILD POWER","RELEASE TO THROW"],
+		"touchInstructionsSizeAdjustment": 0,
+		"results": ["BEST DISTANCE"],
+		"resultsSizeAdjustment": 0
+	},
+	"gameover":
+	{
+		"gamesover": "GAMES OVER",
+		"gamesoverSizeAdjustment": 0,
+		"message": [
+			"NOT EVERYONE CAN",
+			"PARTICIPATE IN THE",
+			"1ST EUROPEAN GAMES.",
+			"","",
+			"TAKE ACTION FOR",
+			"THEIR RELEASE.",
+			"","",
+			"PLEASE SPREAD THE WORD."],
+			"messageSizeAdjustment": 0
+	},
+	"endscreen":
+	{
+		"fidh1": "INTERNATIONAL FEDERATION",
+		"fidh1SizeAdjustment": 0,
+		"fidh2": "FOR HUMAN RIGHTS",
+		"fidh2SizeAdjustment": 0,
+		"facebook": "SHARE ON FACEBOOK",
+		"facebookSizeAdjustment": 0,
+		"twitter": "SHARE ON TWITTER",
+		"twitterSizeAdjustment": 0,
+		"petition": "SIGN THE PETITION",
+		"petitionSizeAdjustment": 0,
+		"playagain": "PLAY AGAIN",
+		"playagainSizeAdjustment": 0,
+		"twitterMessage": "See if you can do better than me at these European Games! #Gaming #Baku2015 Vs. #RealBaku cc @presidentaz",
+		"shareURL": "http://www.pippinbarr.com/games/__secret/bakugames/",
+		"petitionURL": "#petition"
+	}
+}

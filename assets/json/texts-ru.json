@@ -1,0 +1,14 @@
+{
+	"sprint": 
+	{
+		"eventName": "СПРИНТ",
+		"ready": "ГОТОВ",
+		"set": "осанка",
+		"go": "идти",
+		"clickInstructions": "быстро\nнажмите\nспринт!",
+		"touchInstructions": "быстро\nнажмите\nспринт!",
+		"gameOver": "   ИГРА\nЗАКОНЧЕНА",
+		"result": "РЕЗУЛЬТАТ",
+		"record": "НОВЫЙ РЕКОРД"
+	}
+}
