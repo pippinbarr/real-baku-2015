@@ -5,7 +5,7 @@
 # [Play Online](https://www.pippinbarr.com/real-baku-2015/) (desktop and mobile)
 
 ## Description
-REAL BAKU 2015 was developed for [FIDH, the International Federation for Human Rights](www.fidh.org), to raise awareness of arbitrary detentions in Azerbaijan leading up to the 1st European Games, essentially Europe&#8217;s version of the Olympics. It was created in collaboration with [Agence Babel](http://agencebabel.com/) in Paris, France. REAL BAKU 2015 was written in JavaScript/HTML5 using the [Phaser](http://phaser.io/) game framework. Sounds were created in [bfxr](http://www.bfxr.net/) the opening jingle was created in [Bosca Ceoil](http://distractionware.com/blog/2013/08/bosca-ceoil/).
+REAL BAKU 2015 was developed for [FIDH, the International Federation for Human Rights](https://www.fidh.org), to raise awareness of arbitrary detentions in Azerbaijan leading up to the 1st European Games, essentially Europe&#8217;s version of the Olympics. It was created in collaboration with [Agence Babel](https://agencebabel.com/) in Paris, France. REAL BAKU 2015 was written in JavaScript/HTML5 using the [Phaser](http://phaser.io/) game framework. Sounds were created in [bfxr](http://www.bfxr.net/) the opening jingle was created in [Bosca Ceoil](http://distractionware.com/blog/2013/08/bosca-ceoil/).
 
 See the [official FIDH press release](https://www.fidh.org/International-Federation-for-Human-Rights/eastern-europe-central-asia/azerbaijan/video-game-real-baku-2015-play-and-support-human-rights-in-azerbaijan).
 
